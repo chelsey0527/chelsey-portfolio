@@ -39,7 +39,7 @@ const Navbar = () => {
               <Nav.Menu placement="rightStart" eventKey="3" title="Project" icon={<MagicIcon />}>
                 <Nav.Item eventKey="3-1">Overview</Nav.Item>
                 <Nav.Item eventKey="3-2" href='/Project/ICMS'>2020 | Intelligent Customer Management System</Nav.Item>
-                <Nav.Item eventKey="3-3">2019 | Assignmaent Management System Design</Nav.Item>
+                <Nav.Item eventKey="3-3" href='/Project/AMSM'>2019 | Assignmaent Management System Design</Nav.Item>
                 <Nav.Item eventKey="3-4">2018 | Pokémon game</Nav.Item>
               </Nav.Menu>
               <Nav.Item eventKey="4" icon={<GroupIcon />}>

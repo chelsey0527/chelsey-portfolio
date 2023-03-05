@@ -39,7 +39,11 @@ const ICMS = () => {
 
       <div className='small-title'>Link</div>
       <div className='normal-font margin-bottom-20'>
-        <a href='http://www.aicrms.com/' alt='aicrms' target='_blank' rel='noreferrer'>Visit website</a> (Currently no test account available.)
+        <ul>
+          <li>
+            <a href='http://www.aicrms.com/' alt='aicrms' target='_blank' rel='noreferrer'>Demo</a> (Currently no test account available.)
+          </li>
+        </ul>
       </div>
 
       <div className='small-title margin-bottom-10'>Quick overview</div>

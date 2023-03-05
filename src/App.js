@@ -9,6 +9,7 @@ import BackToTop from './components/BackToTop';
 import Home from './views/Home';
 import Experience from './views/Experience';
 import ICMS from './views/project/ICMS';
+import AMSM from './views/project/AMSM';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -22,6 +23,8 @@ root.render(
               <Route path='/' element={<Home/>} />
               <Route path='/Experience' element={<Experience/>} />
               <Route path='/Project/ICMS' element={<ICMS/>} />
+              <Route path='/Project/AMSM' element={<AMSM/>} />
+
               {/* <Route path='/About' element={<Experience/>} />
             <Route path='/Portfolio' element={<Portfolio/>} />
             <Route path='/Contact' element={<Contact/>} /> */}
