@@ -1,0 +1,26 @@
+.normal-font {
+  font-size: 14px;
+}
+
+.work-container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.icon-container {
+  width: 80px;
+  height: 80px;
+  float: right;
+  margin-right: 40px;
+  overflow: hidden;
+}
+
+.icon-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.time {
+  text-align: end;
+}

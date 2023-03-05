@@ -1,0 +1,5 @@
+.rs-sidenav,
+nav {
+  min-height: 100vh !important;
+  height: 100%;
+}
