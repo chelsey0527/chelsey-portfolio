@@ -15,7 +15,7 @@ const ICMS = () => {
   return (
     <>
       <h2>Intelligent Customer Management System </h2>
-      <h5 className='margin-bottom-50'>Enterprise Electronic Lab, Soochow Univeristy, 2020</h5>
+      <h5 className='margin-bottom-50'>Graduation Project, Enterprise Electronic Lab, Soochow Univeristy, 2020</h5>
 
       <div className='small-title'>Description</div>
       <div className='normal-font margin-bottom-20'>

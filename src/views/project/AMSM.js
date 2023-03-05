@@ -17,13 +17,13 @@ const AMSM = () => {
   return (
     <>
       <h2>Assignment Management System Design</h2>
-      <h5 className='margin-bottom-50'>Soochow Univeristy, 2019</h5>
+      <h5 className='margin-bottom-50'>Course project, Soochow Univeristy, 2019</h5>
 
       <div className='small-title'>Description</div>
       <div className='normal-font margin-bottom-20'>
-        Course project at System Analysis and Design.
+        Course project for System Analysis and Design, 2019 SPRING.
         <br/>
-        Designed database architecture for system that will used by 100+ students
+        Designed database architecture for system that will used by 100+ students.
       </div>
 
       <div className='small-title'>Designed with</div>
@@ -88,7 +88,7 @@ const AMSM = () => {
               <img src={d01}/>
             </div>
             <div className='light-grey text-center'>
-            ▲ Login page (Third party login)
+            ▲ Home Page
             </div>
           </Col>
           <Col xs={12} sm={6} className='margin-bottom-20'>
@@ -96,7 +96,7 @@ const AMSM = () => {
               <img src={d02}/>
             </div>
             <div className='light-grey text-center'>
-              ▲ Achievement tracking page
+              ▲ Exam Page
             </div>
           </Col>
           <Col xs={12} sm={6}>
@@ -104,7 +104,7 @@ const AMSM = () => {
               <img src={d03}/>
             </div>
             <div className='light-grey text-center'>
-            ▲  Advanced query
+             ▲ Question Page
             </div>
           </Col>
           <Col xs={12} sm={6}>
@@ -112,7 +112,7 @@ const AMSM = () => {
               <img src={d04}/>
             </div>
             <div className='light-grey text-center'>
-            ▲  Advanced query
+              ▲  User Page
             </div>
           </Col>
         </Row>

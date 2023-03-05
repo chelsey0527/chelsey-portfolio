@@ -10,6 +10,7 @@ import Home from './views/Home';
 import Experience from './views/Experience';
 import ICMS from './views/project/ICMS';
 import AMSM from './views/project/AMSM';
+import Pokemon from './views/project/Pokemon';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -24,6 +25,7 @@ root.render(
               <Route path='/Experience' element={<Experience/>} />
               <Route path='/Project/ICMS' element={<ICMS/>} />
               <Route path='/Project/AMSM' element={<AMSM/>} />
+              <Route path='/Project/Pokemon' element={<Pokemon/>} />
 
               {/* <Route path='/About' element={<Experience/>} />
             <Route path='/Portfolio' element={<Portfolio/>} />
