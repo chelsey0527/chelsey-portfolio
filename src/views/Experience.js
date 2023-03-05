@@ -12,7 +12,7 @@ import './Experience.css';
 const Experience = () => {
   return (
     <>
-      <h2>Work Experience</h2>
+      <h2 className='margin-bottom-50'>Work Experience</h2>
 
       <div className='work-container'>
         <Row style={{marginTop: 20}}>

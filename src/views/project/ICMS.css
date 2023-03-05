@@ -2,17 +2,8 @@ h2 {
   margin-bottom: 0px;
 }
 
-.margin-bottom-50 {
-  margin-bottom: 50px;
-}
-
-.margin-bottom-20 {
-  margin-bottom: 20px;
-}
-
 .image-container {
   overflow: hidden;
-  object-fit: cover;
   height: 230px;
   width: 400px;
 }
@@ -20,4 +11,21 @@ h2 {
 .image-container img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+
+.large-image-container {
+  overflow: hidden;
+  height: 300px;
+  width: 800px;
+}
+
+.large-image-container img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.others {
+  text-align: center;
+  margin-top: 100px;
 }
