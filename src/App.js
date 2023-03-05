@@ -5,11 +5,13 @@ import 'rsuite/dist/rsuite.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import Navbar from './components/Navbar';
+import BackToTop from './components/BackToTop';
 import Home from './views/Home';
 import Experience from './views/Experience';
 import ICMS from './views/project/ICMS';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
     <React.StrictMode>
       <BrowserRouter>
@@ -27,6 +29,7 @@ root.render(
           </div>
         </div>
       </BrowserRouter>
+      <BackToTop/>
     </React.StrictMode>,
 );
 
