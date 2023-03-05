@@ -3,3 +3,21 @@ nav {
   min-height: 100vh !important;
   height: 100%;
 }
+
+.rs-sidenav-item {
+  font-size: 14px !important;
+}
+
+.rs-dropdown-item {
+  font-size: 12px !important;
+}
+
+.header {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.header a {
+  color: #575757 !important;
+  font-weight: 800 !important;
+}

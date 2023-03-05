@@ -7,10 +7,13 @@ import './index.css';
 import Navbar from './components/Navbar';
 import BackToTop from './components/BackToTop';
 import Home from './views/Home';
+import Overview from './views/Overview';
 import Experience from './views/Experience';
 import ICMS from './views/project/ICMS';
 import AMSM from './views/project/AMSM';
 import Pokemon from './views/project/Pokemon';
+import Famille from './views/project/Famille';
+import Contact from './views/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -23,10 +26,12 @@ root.render(
             <Routes>
               <Route path='/' element={<Home/>} />
               <Route path='/Experience' element={<Experience/>} />
+              <Route path='/Overview' element={<Overview/>} />
+              <Route path='/Contact' element={<Contact/>} />
               <Route path='/Project/ICMS' element={<ICMS/>} />
               <Route path='/Project/AMSM' element={<AMSM/>} />
               <Route path='/Project/Pokemon' element={<Pokemon/>} />
-
+              <Route path='/Project/Famille' element={<Famille/>} />
               {/* <Route path='/About' element={<Experience/>} />
             <Route path='/Portfolio' element={<Portfolio/>} />
             <Route path='/Contact' element={<Contact/>} /> */}

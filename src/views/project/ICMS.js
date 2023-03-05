@@ -7,6 +7,7 @@ import g02 from '../../assets/graduationProject/thirdparty.gif';
 import g03 from '../../assets/graduationProject/advanceSearch.gif';
 import p01 from '../../assets/graduationProject/01.png';
 import p02 from '../../assets/graduationProject/02.png';
+import team from '../../assets/graduationProject/team.png';
 import Footer from '../../components/Footer';
 import './ICMS.css';
 import '../../index.css';
@@ -99,7 +100,7 @@ const ICMS = () => {
       </div>
 
       <div className='small-title'>What I learned</div>
-      <div className='normal-font'>
+      <div className='normal-font margin-bottom-20'>
         <div>Problem & Approach:</div>
         <div>
         We were in collaboration with Global Smart Achievement Consultant to build their sales management system.
@@ -121,6 +122,12 @@ const ICMS = () => {
         Being able to adapt to changing project requirements is important in any project management
         role to keep the project moving forward
         </div>
+      </div>
+
+      <div className='small-title'>Our Team</div>
+      <div className='normal-font'></div>
+      <div className='image-container'>
+        <img src={team}/>
       </div>
 
       <Footer/>

@@ -8,6 +8,7 @@ import ms from '../assets/icon/microsoft.png';
 import scu from '../assets/icon/scu.png';
 import Footer from '../components/Footer';
 import './Experience.css';
+import '../index.css';
 
 const Experience = () => {
   return (
@@ -23,13 +24,13 @@ const Experience = () => {
           </Col>
           <Col sm={10}>
             <Row>
-              <Col sm={8}><h5>Full Stack Web Engineer</h5></Col>
+              <Col sm={8}><div className='small-title'>Full Stack Web Engineer</div></Col>
               <Col sm={4}><div className='time'>Sep 2022 – present</div></Col>
             </Row>
             <div className='normal-font'><i>Taiwan Cybersecurity Foundry Company, Taipei Taiwan</i></div>
             <ul className='normal-font'>
               <li>
-            Develop <a href='https://esm.secbuzzer.co/' alt='esm-description'>Citadel</a> (Enterprise Service Management platform) for 20+ company with React.js,
+            Develop <a href='https://esm.secbuzzer.co/' alt='esm-description' target='_blank' rel='noreferrer'>Citadel</a> (Enterprise Service Management platform) for 20+ company with React.js,
             Redux, Node.js, Sequelize, MySQL and JEST from scratch with our team
               </li>
               <li>
@@ -48,13 +49,13 @@ const Experience = () => {
           </Col>
           <Col sm={10}>
             <Row>
-              <Col sm={8}><h5>Research Assistant @ Medical Image Processing & Computer Vision Lab</h5></Col>
+              <Col sm={8}><div className='small-title'>Research Assistant @ Medical Image Processing & Computer Vision Lab</div></Col>
               <Col sm={4}><div className='time'>Jul 2021 – Aug 2022</div></Col>
             </Row>
             <div className='normal-font'>
               <i>
                 Chang Gung University, Taipei Taiwan; A.P.
-                <a href='https://orcid.org/0000-0002-1681-5410'>Yi-Ping Chao</a>
+                <a href='https://orcid.org/0000-0002-1681-5410' target='_blank' rel='noreferrer'>Yi-Ping Chao</a>
               </i>
             </div>
             <ul className='normal-font'>
@@ -78,7 +79,7 @@ const Experience = () => {
           </Col>
           <Col sm={10}>
             <Row>
-              <Col sm={8}><h5>Co-founder, Front-end developer</h5></Col>
+              <Col sm={8}><div className='small-title'>Co-founder, Front-end developer</div></Col>
               <Col sm={4}><div className='time'>Sep 2018 – Jun 2022</div></Col>
             </Row>
             <div className='normal-font'><i>Famille (Online sneaker retail company), Taipei Taiwan</i></div>
@@ -88,6 +89,9 @@ const Experience = () => {
               </li>
               <li>
               Constructed with EJS, Node.js and MySQL, deployed on Microsoft Azure
+              </li>
+              <li>
+                <a href='/Project/Famille'>Platform overview</a>
               </li>
             </ul>
           </Col>
@@ -101,7 +105,7 @@ const Experience = () => {
           </Col>
           <Col sm={10}>
             <Row>
-              <Col sm={8}><h5>Technical Assistant Intern</h5></Col>
+              <Col sm={8}><div className='small-title'>Technical Assistant Intern</div></Col>
               <Col sm={4}><div className='time'>Jun 2020 – Jun 2021</div></Col>
             </Row>
             <div className='normal-font'><i>Microsoft Corporation, Taipei Taiwan</i></div>
@@ -126,7 +130,7 @@ const Experience = () => {
           </Col>
           <Col sm={10}>
             <Row>
-              <Col sm={8}><h5>Teaching Assistant</h5></Col>
+              <Col sm={8}><div className='small-title'>Teaching Assistant</div></Col>
               <Col sm={4}><div className='time'>Mar 2020 – Jul 2020</div></Col>
             </Row>
             <div className='normal-font'><i>Information Security (2020 SPRING), Soochow University, Taipei, Taiwan</i></div>
