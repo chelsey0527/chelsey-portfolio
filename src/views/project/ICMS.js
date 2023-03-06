@@ -51,7 +51,7 @@ const ICMS = () => {
       <div className='normal-font margin-bottom-20'>
         <Row>
           <Col xs={12} sm={6} className='margin-bottom-20'>
-            <div className='image-container'>
+            <div className='icms-images-container'>
               <img src={g02}/>
             </div>
             <div className='light-grey text-center'>
@@ -59,7 +59,7 @@ const ICMS = () => {
             </div>
           </Col>
           <Col xs={12} sm={6} className='margin-bottom-20'>
-            <div className='image-container'>
+            <div className='icms-images-container'>
               <img src={g01}/>
             </div>
             <div className='light-grey text-center'>
@@ -67,7 +67,7 @@ const ICMS = () => {
             </div>
           </Col>
           <Col xs={12} sm={6}>
-            <div className='image-container'>
+            <div className='icms-images-container'>
               <img src={g03}/>
             </div>
             <div className='light-grey text-center'>
@@ -85,13 +85,13 @@ const ICMS = () => {
 
       <div className='small-title margin-bottom-10'>Project management timeline</div>
       <div className='normal-font margin-bottom-20'>
-        <div className='large-image-container'>
+        <div className='large-icms-images-container'>
           <img src={p01}/>
         </div>
         <div className='light-grey text-center margin-bottom-20'>
             ▲  PM timeline (1/2)
         </div>
-        <div className='large-image-container'>
+        <div className='large-icms-images-container'>
           <img src={p02}/>
         </div>
         <div className='light-grey text-center'>
@@ -126,7 +126,7 @@ const ICMS = () => {
 
       <div className='small-title'>Our Team</div>
       <div className='normal-font'></div>
-      <div className='image-container'>
+      <div className='large-icms-team-images-container'>
         <img src={team}/>
       </div>
 

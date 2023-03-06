@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'typed.js';
+import {Button} from 'rsuite';
 import './Home.css';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         'developer',
         'blogger',
         'cat lover',
+        'coffee lover',
       ],
       typeSpeed: 80,
       backSpeed: 80,
@@ -37,6 +39,7 @@ const Home = () => {
         <div className="type-wrap">
           <span>I&#39;m a </span><span className='typed-span' style={{whiteSpace: 'pre'}} ref={el} />
         </div>
+        <a href='/About'><Button style={{marginTop: 50}}>Show more</Button></a>
       </div>
 
     </>

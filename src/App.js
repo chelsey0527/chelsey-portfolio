@@ -46,7 +46,7 @@ const App = () => {
           </div>
         </BrowserRouter>
         <BackToTop/>
-      </React.StrictMode>,
+      </React.StrictMode>
     </>
   );
 };

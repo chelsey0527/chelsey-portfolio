@@ -2,25 +2,36 @@ h2 {
   margin-bottom: 0px;
 }
 
-.image-container {
+.icms-images-container {
   overflow: hidden;
-  height: 230px;
-  width: 380px;
+  height: 220px;
+  width: 360px;
 }
 
-.image-container img {
+.icms-images-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.large-image-container {
+.large-icms-images-container {
   overflow: hidden;
   height: 300px;
-  width: 700px;
+  width: 740px;
 }
 
-.large-image-container img {
+.large-icms-images-container img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.large-icms-team-images-container {
+  overflow: hidden;
+  height: 500px;
+  width: 740px;
+}
+
+.large-icms-team-images-container img {
   width: 100%;
   object-fit: contain;
 }

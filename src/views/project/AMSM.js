@@ -48,33 +48,27 @@ const AMSM = () => {
       <div className='normal-font margin-bottom-20'>
         <Row>
           <Col xs={12} sm={6} className='margin-bottom-20'>
-            <div className='image-container'>
+            <div className='amsm-image-container'>
               <img src={dfd}/>
             </div>
             <div className='light-grey text-center'>
-            ▲ Login page (Third party login)
+            ▲ ER diagram
             </div>
           </Col>
           <Col xs={12} sm={6} className='margin-bottom-20'>
-            <div className='image-container'>
+            <div className='amsm-image-container'>
               <img src={rdb}/>
             </div>
             <div className='light-grey text-center'>
-              ▲ Achievement tracking page
+              ▲ Relational DB
             </div>
           </Col>
-          <Col xs={12} sm={6}>
-            <div className='image-container'>
+          <Col xs={12} sm={12}>
+            <div className='large-amsm-image-container'>
               <img src={nf}/>
             </div>
             <div className='light-grey text-center'>
-            ▲  Advanced query
-            </div>
-          </Col>
-          <Col xs={12} sm={6}>
-            <div className='others'>
-            Due to the confidentiality agreement,<br/>
-            Other pages are not allowed to demo other pages.
+            ▲  Normalization(3NF)
             </div>
           </Col>
         </Row>
