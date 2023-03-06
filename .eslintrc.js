@@ -25,5 +25,6 @@ module.exports = {
     'new-cap': 'off', // 函式首字小寫
     'prefer-const': 'off',
   },
+
 };
 

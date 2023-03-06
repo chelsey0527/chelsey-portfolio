@@ -1,0 +1,10 @@
+.logo-container {
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
+}
+
+.logo-container img {
+  width: 100%;
+  object-fit: cover;
+}
