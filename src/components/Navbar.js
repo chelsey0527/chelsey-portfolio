@@ -26,7 +26,7 @@ const Navbar = () => {
               <Nav.Item eventKey="1" icon={<InfoRoundIcon />} href='/About'>
                 About
               </Nav.Item>
-              <Nav.Item eventKey="2" icon={<MemberIcon />} href='/Experience'>
+              <Nav.Item placement="rightStart" eventKey="2" icon={<MemberIcon />} href='/Experience'>
                 Work Experience
               </Nav.Item>
               <Nav.Menu placement="rightStart" eventKey="3" title="Project" icon={<MagicIcon />}>

@@ -22,7 +22,7 @@ const Famille = () => {
         A sneaker reselling platform that served customers across Taiwan
       </div>
 
-      <div className='small-title'>Designed with</div>
+      <div className='small-title'>Developed with</div>
       <div className='normal-font margin-bottom-20'>
         <TagGroup>
           <Tag color="default">EJS</Tag>

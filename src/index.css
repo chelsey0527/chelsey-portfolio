@@ -24,8 +24,16 @@ a {
   font-weight: 500;
 }
 
+.normal-font {
+  font-size: 14px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.underline {
+  color: rgb(23, 65, 180);
 }
 
 /* layout */
@@ -58,6 +66,10 @@ a {
 
 .margin-bottom-50 {
   margin-bottom: 50px;
+}
+
+.margin-bottom-80 {
+  margin-bottom: 80px;
 }
 
 /* footer */

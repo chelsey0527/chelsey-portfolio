@@ -6,6 +6,7 @@ import cgu from '../assets/icon/cgu.png';
 import fm from '../assets/icon/famille.png';
 import ms from '../assets/icon/microsoft.png';
 import scu from '../assets/icon/scu.png';
+import sb from '../assets/icon/sb.png';
 import Footer from '../components/Footer';
 import './Experience.css';
 import '../index.css';
@@ -105,7 +106,11 @@ const Experience = () => {
           </Col>
           <Col sm={10}>
             <Row>
-              <Col sm={8}><div className='small-title'>Technical Assistant Intern</div></Col>
+              <Col sm={8}>
+                <a href='/Work/MSFT'>
+                  <div className='small-title'>Technical Assistant Intern</div>
+                </a>
+              </Col>
               <Col sm={4}><div className='time'>Jun 2020 – Jun 2021</div></Col>
             </Row>
             <div className='normal-font'><i>Microsoft Corporation, Taipei Taiwan</i></div>
@@ -133,7 +138,7 @@ const Experience = () => {
               <Col sm={8}><div className='small-title'>Teaching Assistant</div></Col>
               <Col sm={4}><div className='time'>Mar 2020 – Jul 2020</div></Col>
             </Row>
-            <div className='normal-font'><i>Information Security (2020 SPRING), Soochow University, Taipei, Taiwan</i></div>
+            <div className='normal-font'><i>Information Security (2020 SPRING), Soochow University, Taipei Taiwan</i></div>
             <ul className='normal-font'>
               <li>
               Responsible for English Academic Journal Paper Reading at practice lesson for
@@ -142,6 +147,27 @@ const Experience = () => {
             </ul>
           </Col>
         </Row>
+
+        <Row style={{marginTop: 20}}>
+          <Col sm={2}>
+            <div className='icon-container'>
+              <img src={sb} alt="microsoft"></img>
+            </div>
+          </Col>
+          <Col sm={10}>
+            <Row>
+              <a href='/Work/Sandbox'><Col sm={8}><div className='small-title'>Robot class Teacher</div></Col></a>
+              <Col sm={4}><div className='time'>Mar 2020 – Dec 2021</div></Col>
+            </Row>
+            <div className='normal-font'><i>Sandbox Academy, Taipei Taiwan</i></div>
+            <ul className='normal-font'>
+              <li>
+              Taught Python logic with programmable robotics to 15 K-12 students.
+              </li>
+            </ul>
+          </Col>
+        </Row>
+
         <Footer/>
       </div>
     </>

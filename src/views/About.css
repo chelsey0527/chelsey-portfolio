@@ -1,0 +1,9 @@
+.me-container {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.me-container img {
+  width: 100%;
+}

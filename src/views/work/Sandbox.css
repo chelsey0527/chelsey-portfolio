@@ -1,0 +1,11 @@
+.sb-large-image-container {
+  margin-top: 20px;
+  width: 720px;
+  height: 430px;
+  overflow: hidden;
+}
+
+.sb-large-image-container img {
+  width: 100%;
+  object-fit: contain;
+}

@@ -13,6 +13,9 @@ import AMSM from './views/project/AMSM';
 import Pokemon from './views/project/Pokemon';
 import Famille from './views/project/Famille';
 import Contact from './views/Contact';
+import About from './views/About';
+import MSFT from './views/work/MSFT';
+import Sandbox from './views/work/Sandbox';
 
 
 const App = () => {
@@ -25,6 +28,7 @@ const App = () => {
             <div className='main-container'>
               <Routes>
                 <Route path='/' element={<Home/>} />
+                <Route path='/About' element={<About/>} />
                 <Route path='/Experience' element={<Experience/>} />
                 <Route path='/Overview' element={<Overview/>} />
                 <Route path='/Contact' element={<Contact/>} />
@@ -32,6 +36,8 @@ const App = () => {
                 <Route path='/Project/AMSM' element={<AMSM/>} />
                 <Route path='/Project/Pokemon' element={<Pokemon/>} />
                 <Route path='/Project/Famille' element={<Famille/>} />
+                <Route path='/Work/MSFT' element={<MSFT/>} />
+                <Route path='/Work/Sandbox' element={<Sandbox/>} />
                 {/* <Route path='/About' element={<Experience/>} />
               <Route path='/Portfolio' element={<Portfolio/>} />
               <Route path='/Contact' element={<Contact/>} /> */}

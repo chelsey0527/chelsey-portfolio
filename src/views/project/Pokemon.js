@@ -22,7 +22,7 @@ const Pokemon = () => {
         Utilized various Android components, such as activities, fragments, intents to create user interface.
       </div>
 
-      <div className='small-title'>Designed with</div>
+      <div className='small-title'>Developed with</div>
       <div className='normal-font margin-bottom-20'>
         <TagGroup>
           <Tag color="blue">Java</Tag>
@@ -40,7 +40,7 @@ const Pokemon = () => {
 
       <div className='small-title margin-bottom-10'>Demo video</div>
       <div className='normal-font margin-bottom-20'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_4bOL7QfLSE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_4bOL7QfLSE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </div>
 
 
