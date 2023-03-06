@@ -16,6 +16,7 @@
     "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
     "rsuite": "^5.28.1",
+    "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

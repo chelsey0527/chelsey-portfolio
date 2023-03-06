@@ -33,7 +33,7 @@ const Pokemon = () => {
       <div className='normal-font margin-bottom-20'>
         <ul>
           <li>
-            <a href='https://github.com/chelsey0527/18-OO-Pokemonhttps://drive.google.com/file/d/1HC7i3v0qMl5YnMEe9UU3Sy2kvqI9wBzr/view?usp=share_link' alt='aicrms' target='_blank' rel='noreferrer'>Source code</a>
+            <a href='https://github.com/chelsey0527/18-OO-Pokemonhttps://drive.google.com/file/d/1HC7i3v0qMl5YnMEe9UU3Sy2kvqI9wBzr/view?usp=share_link' alt='pokemon' target='_blank' rel='noreferrer'>Source code</a>
           </li>
         </ul>
       </div>
