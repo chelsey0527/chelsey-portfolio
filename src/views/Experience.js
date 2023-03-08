@@ -57,8 +57,8 @@ const Experience = () => {
             </Row>
             <div className='normal-font'>
               <i>
-                Chang Gung University, Taipei Taiwan; A.P.
-                <a href='https://orcid.org/0000-0002-1681-5410' target='_blank' rel='noreferrer'>Yi-Ping Chao</a>
+                Chang Gung University, Taipei Taiwan; Associate Prof.
+                <a href='https://orcid.org/0000-0002-1681-5410' target='_blank' rel='noreferrer'>Yi-Ping Chao, PhD</a>
               </i>
             </div>
             <ul className='normal-font'>

@@ -17,7 +17,7 @@ const Navbar = () => {
           <Sidenav.Header>
             <div className='header'>
               <a href='/'>
-                ChinShan, Lee
+                Chin-Shan Lee
               </a>
             </div>
           </Sidenav.Header>

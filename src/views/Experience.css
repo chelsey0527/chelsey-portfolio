@@ -11,8 +11,8 @@
   width: 80px;
   height: 80px;
   float: right;
-  margin-right: 40px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .icon-container img {

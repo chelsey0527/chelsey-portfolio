@@ -50,9 +50,7 @@ const About = () => {
             <div className='normal-font'><i>Soochow University, Taiwan, </i></div>
             <ul className='normal-font'>
               <li>
-                Related course: Introduction to computer, Object-oriented programming, Data Structure
-                , Algorithm, Database Management, Probabilities, Discrete Mathmatics, Linear Algebra
-                , Computer Architecture, Operating System, Deep Learning
+                Related course: Deep learning, Object-oriented programming (Java), Data structure, Algorithm, Operating System, Computer Architecture, Database Management, Discrete Mathematics, Linear Algebra, Calculus, Statistics, Introduction to Computer, Mobile technologies and Application
               </li>
             </ul>
           </Col>
