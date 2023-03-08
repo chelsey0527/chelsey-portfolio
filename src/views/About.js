@@ -10,8 +10,8 @@ const About = () => {
   return (
     <>
       <Row className='margin-bottom-50'>
-        <Col sm={7}>
-          <h2 className='margin-bottom-20'>I am ChinShan(Chelsey) </h2>
+        <Col sm={8}>
+          <h2 className='margin-bottom-20'>I am ChinShan(Chelsey), Lee </h2>
           <div className='normal-font'>
             Graduated from <span className='underline'>Soochow univeristy</span>  class of 2021.
             <br/>
@@ -24,10 +24,10 @@ const About = () => {
             a year.
             <br/>
             <br/>
-            I believe our greatest glory is not in never falling, but in rising every time we fall.
+            &#34;Our greatest glory is not in never falling, but in rising every time we fall.&#34;
           </div>
         </Col>
-        <Col sm={5}>
+        <Col sm={4}>
           <div className='me-container'>
             <img src={me}/>
           </div>

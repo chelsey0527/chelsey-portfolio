@@ -4,8 +4,8 @@ h2 {
 
 .icms-images-container {
   overflow: hidden;
-  height: 220px;
-  width: 360px;
+  height: 100%;
+  width: 100%;
 }
 
 .icms-images-container img {
@@ -16,8 +16,8 @@ h2 {
 
 .large-icms-images-container {
   overflow: hidden;
-  height: 300px;
-  width: 740px;
+  height: 100%;
+  width: 100%;
 }
 
 .large-icms-images-container img {
@@ -27,8 +27,8 @@ h2 {
 
 .large-icms-team-images-container {
   overflow: hidden;
-  height: 500px;
-  width: 740px;
+  height: 100%;
+  width: 100%;
 }
 
 .large-icms-team-images-container img {

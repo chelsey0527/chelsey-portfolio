@@ -10,6 +10,7 @@ import d02 from '../../assets/sa/d02.png';
 import d03 from '../../assets/sa/d03.png';
 import d04 from '../../assets/sa/d04.png';
 import Footer from '../../components/Footer';
+import LearnCard from '../../components/LearnCard';
 import './AMSM.css';
 import '../../index.css';
 
@@ -39,13 +40,13 @@ const AMSM = () => {
       <div className='normal-font margin-bottom-20'>
         <ul>
           <li>
-            <a href='https://drive.google.com/file/d/1HC7i3v0qMl5YnMEe9UU3Sy2kvqI9wBzr/view?usp=share_link' alt='aicrms' target='_blank' rel='noreferrer'>Full design document</a>
+            <a href='https://drive.google.com/file/d/1HC7i3v0qMl5YnMEe9UU3Sy2kvqI9wBzr/view?usp=share_link' alt='aicrms' target='_blank' rel='noreferrer'>Full design document (ZH-TW)</a>
           </li>
         </ul>
       </div>
 
       <div className='small-title margin-bottom-10'>System design overview</div>
-      <div className='normal-font margin-bottom-20'>
+      <div className='normal-font margin-bottom-50'>
         <Row>
           <Col xs={12} sm={6} className='margin-bottom-20'>
             <div className='amsm-image-container'>
@@ -75,7 +76,7 @@ const AMSM = () => {
       </div>
 
       <div className='small-title margin-bottom-10'>UI/UX design overview</div>
-      <div className='normal-font margin-bottom-20'>
+      <div className='normal-font margin-bottom-50'>
         <Row>
           <Col xs={12} sm={6} className='margin-bottom-20'>
             <div className='image-container'>
@@ -114,28 +115,17 @@ const AMSM = () => {
 
       <div className='small-title'>What I learned</div>
       <div className='normal-font'>
-        <div>Problem & Approach:</div>
-        <div>
-        Our school had faced difficulties in managing assignments and exams with the
-        previous system, lead to the need for an improved and more advanced system
-        </div>
-        <div>Contribution:</div>
-        <div>
-        Used the System Development Life Cycle (SDLC) to stage each process from user requests
-          <br/>
-        Implemented the system with features such as user database management, formulated exams, and
-        discussion forums
-        </div>
-        <div>Solutions & Impact:</div>
-        <div>
-        Constructed the database architecture designed to serve over 100 users, with a database
-        containing 200 past exams
-        </div>
-        <div>Learning & Reflection:</div>
-        <div>
-        It was hard to design a well-rounded system. Although experienced over ten meetings for discussion,
-        there are still numerous details that can be improved
-        </div>
+        <LearnCard
+          content1="Our school had faced difficulties in managing assignments and exams with the
+          previous system, lead to the need for an improved and more advanced system."
+          content2="Used the System Development Life Cycle (SDLC) to stage each process from user requests. Implemented the system with features such as user database management, formulated exams, and
+          discussion forums."
+          content3="Constructed the database architecture designed to serve over 100 users, with a database
+          containing 200 past examsClear communications and setting expectations to ensure that there is a mutual understanding
+          of what is expected from the project can help to prevent constant changes and redevelopment later."
+          content4="It was hard to design a well-rounded system. Although experienced over ten meetings for discussion,
+          there are still numerous details that can be improved."
+        />
       </div>
 
       <Footer/>

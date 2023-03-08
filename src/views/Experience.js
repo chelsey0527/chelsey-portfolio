@@ -31,12 +31,14 @@ const Experience = () => {
             <div className='normal-font'><i>Taiwan Cybersecurity Foundry Company, Taipei Taiwan</i></div>
             <ul className='normal-font'>
               <li>
-            Develop <a href='https://esm.secbuzzer.co/' alt='esm-description' target='_blank' rel='noreferrer'>Citadel</a> (Enterprise Service Management platform) for 20+ company with React.js,
-            Redux, Node.js, Sequelize, MySQL and JEST from scratch with our team
+                Develop <a href='https://esm.secbuzzer.co/' alt='esm-description' target='_blank' rel='noreferrer'>Citadel </a>
+                to provide real-time monitoring and threat detection for client’s network security needs using React.js, Redux,
+                Node.js, Sequelize, MySQL, serving 20+ global clients. Optimized network performance from 10 to 5 mins by minimize
+                HTTP requests and remove unnecessary data dependencies
               </li>
               <li>
-            Developed Internal Data Management and Analysis System for Taiwan Power Company using
-            Angular.js, Spring boot, SQL server, store procedure with our team
+                Developed Internal Data Management and Analysis System for Taiwan Power Company to manage electric towers’
+                state and provide monthly analysis report using Angular.js, Spring boot, SQL server
               </li>
             </ul>
           </Col>
@@ -61,12 +63,9 @@ const Experience = () => {
             </div>
             <ul className='normal-font'>
               <li>
-              Established database containing 3,000+ data with appropriate labeling for CNN-based
-              deep learning model training
-              </li>
-              <li>
-              Evaluated the Convolutional Neural Network (CNN) model&#310;s performance by
-               conducting experiments, analyzing results, and presenting findings
+                Established database containing 3,000+ data of pupils with appropriate labeling for Convolutional
+                Neural Network (CNN)-based deep learning model training, and evaluated the model&#39;s performance on the
+                detection of pupil size which reached an accuracy of 89.43%
               </li>
             </ul>
           </Col>
@@ -86,10 +85,8 @@ const Experience = () => {
             <div className='normal-font'><i>Famille (Online sneaker retail company), Taipei Taiwan</i></div>
             <ul className='normal-font'>
               <li>
-              Launched sneaker reselling platform, serving customers across Taiwan
-              </li>
-              <li>
-              Constructed with EJS, Node.js and MySQL, deployed on Microsoft Azure
+                Launched online sneaker reselling platform serving customers across Taiwan, using with EJS,
+                Node.js, MySQL, integrated online payment service - TapPay, and deployed on Microsoft Azure
               </li>
               <li>
                 <a href='/Project/Famille'>Platform overview</a>
@@ -156,7 +153,11 @@ const Experience = () => {
           </Col>
           <Col sm={10}>
             <Row>
-              <a href='/Work/Sandbox'><Col sm={8}><div className='small-title'>Robot class Teacher</div></Col></a>
+              <Col sm={8}>
+                <a href='/Work/Sandbox'>
+                  <div className='small-title'>Robot class Teacher</div>
+                </a>
+              </Col>
               <Col sm={4}><div className='time'>Mar 2020 – Dec 2021</div></Col>
             </Row>
             <div className='normal-font'><i>Sandbox Academy, Taipei Taiwan</i></div>

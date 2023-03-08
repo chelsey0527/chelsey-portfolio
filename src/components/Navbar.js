@@ -30,11 +30,11 @@ const Navbar = () => {
                 Work Experience
               </Nav.Item>
               <Nav.Menu placement="rightStart" eventKey="3" title="Project" icon={<MagicIcon />}>
-                <Nav.Item eventKey="3-1" href='/Overview'>Overview</Nav.Item>
-                <Nav.Item eventKey="3-2" href='/Project/ICMS'>2020 Intelligent Customer Management System</Nav.Item>
-                <Nav.Item eventKey="3-3" href='/Project/AMSM'>2019 Assignmaent Management System Design</Nav.Item>
-                <Nav.Item eventKey="3-4" href='/Project/Famille'>2018 Famille</Nav.Item>
-                <Nav.Item eventKey="3-5" href='/Project/Pokemon'>2018 Pokémon game</Nav.Item>
+                {/* <Nav.Item eventKey="3-1" href='/Overview'>Overview</Nav.Item> */}
+                <Nav.Item eventKey="3-1" href='/Project/ICMS'>2020 Intelligent Customer Management System</Nav.Item>
+                <Nav.Item eventKey="3-2" href='/Project/AMSM'>2019 Assignmaent Management System Design</Nav.Item>
+                <Nav.Item eventKey="3-3" href='/Project/Famille'>2018 Famille</Nav.Item>
+                <Nav.Item eventKey="3-4" href='/Project/Pokemon'>2018 Pokémon game</Nav.Item>
               </Nav.Menu>
               <Nav.Item eventKey="4" icon={<EmailFillIcon />} href='/Contact'>
                 Contact

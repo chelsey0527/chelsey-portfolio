@@ -9,6 +9,7 @@ import p01 from '../../assets/graduationProject/01.png';
 import p02 from '../../assets/graduationProject/02.png';
 import team from '../../assets/graduationProject/team.png';
 import Footer from '../../components/Footer';
+import LearnCard from '../../components/LearnCard';
 import './ICMS.css';
 import '../../index.css';
 
@@ -48,7 +49,7 @@ const ICMS = () => {
       </div>
 
       <div className='small-title margin-bottom-10'>Quick overview</div>
-      <div className='normal-font margin-bottom-20'>
+      <div className='normal-font margin-bottom-50'>
         <Row>
           <Col xs={12} sm={6} className='margin-bottom-20'>
             <div className='icms-images-container'>
@@ -84,7 +85,7 @@ const ICMS = () => {
       </div>
 
       <div className='small-title margin-bottom-10'>Project management timeline</div>
-      <div className='normal-font margin-bottom-20'>
+      <div className='normal-font margin-bottom-50'>
         <div className='large-icms-images-container'>
           <img src={p01}/>
         </div>
@@ -100,28 +101,18 @@ const ICMS = () => {
       </div>
 
       <div className='small-title'>What I learned</div>
-      <div className='normal-font margin-bottom-20'>
-        <div>Problem & Approach:</div>
-        <div>
-        We were in collaboration with Global Smart Achievement Consultant to build their sales management system.
-        And the company constantly change their requirements and made us to redevelop all the time
-        </div>
-        <div>Contribution:</div>
-        <div>
-        As the team lead, I was responsible for project management.
-        And I decided to evaluate the feasibility with the company first before
-        I transfer the needs to my teammates
-        </div>
-        <div>Solutions & Impact:</div>
-        <div>
-        Clear communications and setting expectations to ensure that there is a mutual understanding
-        of what is expected from the project can help to prevent constant changes and redevelopment later
-        </div>
-        <div>Learning & Reflection:</div>
-        <div>
-        Being able to adapt to changing project requirements is important in any project management
-        role to keep the project moving forward
-        </div>
+      <div className='normal-font margin-bottom-50'>
+        <LearnCard
+          content1="We were in collaboration with Global Smart Achievement Consultant to build their sales management system.
+          And the company constantly change their requirements and made us to redevelop all the time."
+          content2="As the team lead, I was responsible for project management.
+          And I decided to evaluate the feasibility with the company first before
+          I transfer the needs to my teammates."
+          content3="Clear communications and setting expectations to ensure that there is a mutual understanding
+          of what is expected from the project can help to prevent constant changes and redevelopment later."
+          content4="Being able to adapt to changing project requirements is important in any project management
+          role to keep the project moving forward."
+        />
       </div>
 
       <div className='small-title'>Our Team</div>
