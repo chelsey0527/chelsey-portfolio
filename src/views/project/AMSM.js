@@ -121,7 +121,7 @@ const AMSM = () => {
           content2="Used the System Development Life Cycle (SDLC) to stage each process from user requests. Implemented the system with features such as user database management, formulated exams, and
           discussion forums."
           content3="Constructed the database architecture designed to serve over 100 users, with a database
-          containing 200 past examsClear communications and setting expectations to ensure that there is a mutual understanding
+          containing 200 past exams. Clear communications and setting expectations to ensure that there is a mutual understanding
           of what is expected from the project can help to prevent constant changes and redevelopment later."
           content4="It was hard to design a well-rounded system. Although experienced over ten meetings for discussion,
           there are still numerous details that can be improved."
