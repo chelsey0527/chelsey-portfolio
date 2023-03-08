@@ -78,7 +78,7 @@ const ICMS = () => {
           <Col xs={12} sm={6}>
             <div className='others'>
             Due to the confidentiality agreement,<br/>
-            Other pages are not allowed to demo other pages.
+            other pages are not allowed to demo.
             </div>
           </Col>
         </Row>
