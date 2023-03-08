@@ -36,7 +36,7 @@ const Sandbox = () => {
 
             </div>
           </Col>
-          <Col xs={12} sm={6}>
+          <Col xs={12} sm={6} className='margin-bottom-20'>
             <div className='image-container'>
               <img src={g03}/>
             </div>
@@ -44,15 +44,15 @@ const Sandbox = () => {
             ▲  Let’s work together
             </div>
           </Col>
-          <Col xs={12} sm={6}>
+          <Col xs={12} sm={6} className='margin-bottom-20'>
             <div className='image-container'>
               <img src={g04}/>
             </div>
-            <div className='light-grey text-center'>
+            <div className='light-grey text-center ' >
             ▲  Last week! Say cheese!
             </div>
           </Col>
-          <Col xs={12} sm={12}>
+          <Col xs={12} sm={12} className='margin-bottom-20'>
             <div className='sb-large-image-container'>
               <img src={g05}/>
             </div>
