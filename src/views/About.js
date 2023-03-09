@@ -11,7 +11,7 @@ const About = () => {
     <>
       <Row className='margin-bottom-50'>
         <Col sm={8}>
-          <h2 className='margin-bottom-20'>I am ChinShan(Chelsey), Lee </h2>
+          <h2 className='margin-bottom-20'>I am Chin-Shan(Chelsey) Lee </h2>
           <div className='normal-font'>
             Graduated from <span className='underline'>Soochow univeristy</span>  class of 2021.
             <br/>
