@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import dfd from '../../assets/sa/DFD.png';
 import rdb from '../../assets/sa/RDB.png';
+import fdd from '../../assets/sa/FDD.png';
 import nf from '../../assets/sa/3NF.png';
 import d01 from '../../assets/sa/d01.png';
 import d02 from '../../assets/sa/d02.png';
@@ -25,14 +26,23 @@ const AMSM = () => {
         Course project for System Analysis and Design, 2019 SPRING.
         <br/>
         Designed database architecture for system that will used by 100+ students.
+        <br/>
+        We discussed aspect in the following:
+        <ul>
+          <li>Preliminary Investigation Report</li>
+          <li>Functional Decomposition Diagram</li>
+          <li>Data Flow Diagram</li>
+          <li>Data Dictionary</li>
+          <li>Database Design</li>
+          <li>UI/UX design</li>
+        </ul>
       </div>
 
-      <div className='small-title'>Designed with</div>
+      <div className='small-title'>Tools</div>
       <div className='normal-font margin-bottom-20'>
         <TagGroup>
           <Tag color="orange">My SQL</Tag>
-          <Tag color="default">Normalization</Tag>
-          <Tag color="default">ERD</Tag>
+          <Tag color="default">draw.io</Tag>
         </TagGroup>
       </div>
 
@@ -48,6 +58,14 @@ const AMSM = () => {
       <div className='small-title margin-bottom-10'>System design overview</div>
       <div className='normal-font margin-bottom-50'>
         <Row>
+          <Col xs={12} sm={12} className='margin-bottom-20'>
+            <div className='amsm-image-container'>
+              <img src={fdd}/>
+            </div>
+            <div className='light-grey text-center'>
+            ▲ FDD
+            </div>
+          </Col>
           <Col xs={12} sm={6} className='margin-bottom-20'>
             <div className='amsm-image-container'>
               <img src={dfd}/>
@@ -60,7 +78,7 @@ const AMSM = () => {
             <div className='amsm-image-container'>
               <img src={rdb}/>
             </div>
-            <div className='light-grey text-center'>
+            <div className='light-grey text-center '>
               ▲ Relational DB
             </div>
           </Col>
@@ -68,7 +86,7 @@ const AMSM = () => {
             <div className='large-amsm-image-container'>
               <img src={nf}/>
             </div>
-            <div className='light-grey text-center'>
+            <div className='light-grey text-center '>
             ▲  Normalization(3NF)
             </div>
           </Col>
