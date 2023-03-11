@@ -12,7 +12,7 @@ const Home = () => {
     const options = {
       strings: [
         'developer',
-        'blogger',
+        'content creater',
         'cat lover',
         'coffee lover',
       ],
