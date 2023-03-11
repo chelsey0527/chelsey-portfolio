@@ -39,7 +39,7 @@ const Home = () => {
         <div className="type-wrap">
           <span>I&#39;m a </span><span className='typed-span' style={{whiteSpace: 'pre'}} ref={el} />
         </div>
-        <a href='/About'><Button style={{marginTop: 50}}>Show more</Button></a>
+        <a href='/About'><Button style={{marginTop: 50}}>About me</Button></a>
       </div>
 
     </>
