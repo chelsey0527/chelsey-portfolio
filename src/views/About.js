@@ -13,12 +13,10 @@ const About = () => {
         <Col sm={9}>
           <h2 className='margin-bottom-20'>I am Chin-Shan(Chelsey) Lee </h2>
           <div className='normal-font'>
-            I am always passionate about technology innovation and entrepreneurship.
-            I founded Famille with my friends in my sophomore year. Our company become popular in Taiwan because
-            we seize the market trend, provides match making between resalers and buyers, makeing over $50,000 USD
-            a year.
+            I am always passionate about <span className='highlight-color'>education</span>, <span className='highlight-color'>technology innovation</span> and <span className='highlight-color'>entrepreneurship</span>.
+            Through my master degree, I seek to deepen my knowledge in computer vision, data mining, distributed system.
             <br/>
-            <div className='work-container margin-bottom-20'>
+            <div className=' margin-bottom-20'>
               <Row style={{marginTop: 20}}>
                 <Col sm={2}>
                   <div className='edu-icon-container'>
@@ -46,7 +44,7 @@ const About = () => {
 
 
       <h2 className='margin-bottom-20'>A Content Creater</h2>
-      <div className='normal-font margin-bottom-20'>I post makeup tutorials on Dcard (an online social media and networking platform based in Taiwan).</div>
+      <div className='normal-font margin-bottom-20'>I post makeup tutorials on <a href='https://www.dcard.tw/my/persona' alt='dcard' target='_blank' rel='noreferrer'>Dcard</a> (an online social media and networking platform based in Taiwan).</div>
       <Row>
         <Col xs={12} sm={4}>
           <iframe src="https://embed.dcard.tw/v1/posts/241210886?showMedia=1&" height="500" style={{width: '100%'}} ></iframe>
