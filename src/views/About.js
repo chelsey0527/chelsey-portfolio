@@ -1,6 +1,7 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+// import {Timeline} from 'rsuite';
 import me from '../assets/me.webp';
 import scu from '../assets/icon/scu.png';
 import '../index.css';
@@ -41,6 +42,18 @@ const About = () => {
           </div>
         </Col>
       </Row>
+
+      {/* <h2 className='margin-bottom-20'>My timeline</h2>
+      <div className='normal-font margin-bottom-20'>know more about my works</div>
+      <Row className='margin-bottom-50'>
+        <Timeline endless className='normal-font'>
+          <Timeline.Item>16:27:41 Your order starts processing</Timeline.Item>
+          <Timeline.Item>16:28:43 Your order to be ready for delivery</Timeline.Item>
+          <Timeline.Item>16:28:45 Your parcel has been out of the library</Timeline.Item>
+          <Timeline.Item>02:34:41 Send to Shanghai Hongkou Company</Timeline.Item>
+          <Timeline.Item>09/2022 - present Full stack developer @ TCFC</Timeline.Item>
+        </Timeline>
+      </Row> */}
 
 
       <h2 className='margin-bottom-20'>A Content Creater</h2>
