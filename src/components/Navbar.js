@@ -36,6 +36,10 @@ const Navbar = () => {
                 <Nav.Item eventKey="3-3" href='/Project/Famille'>2018 Famille</Nav.Item>
                 <Nav.Item eventKey="3-4" href='/Project/Pokemon'>2018 Pokémon game</Nav.Item>
               </Nav.Menu>
+              {/* <Nav.Menu placement="rightStart" eventKey="4" title="Side Project" icon={<MagicIcon />}>
+                <Nav.Item eventKey="4-1" href='/Project/ICMS'>2022 Taipei Day Trip</Nav.Item>
+                <Nav.Item eventKey="4-2" href='/Project/AMSM'>2023 Object Detection</Nav.Item>
+              </Nav.Menu> */}
               <Nav.Item eventKey="4" icon={<EmailFillIcon />} href='/Contact'>
                 Contact
               </Nav.Item>
