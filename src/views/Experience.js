@@ -44,7 +44,7 @@ const Experience = () => {
           </Col>
         </Row>
 
-        <Row style={{marginTop: 20}}>
+        {/* <Row style={{marginTop: 20}}>
           <Col sm={2}>
             <div className='icon-container'>
               <img src={cgu} alt="cgu"></img>
@@ -69,7 +69,7 @@ const Experience = () => {
               </li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
 
         <Row style={{marginTop: 20}}>
           <Col sm={2}>
