@@ -2,7 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import tcfc from '../assets/icon/tcfc.png';
-import cgu from '../assets/icon/cgu.png';
+// import cgu from '../assets/icon/cgu.png';
 import fm from '../assets/icon/famille.png';
 import ms from '../assets/icon/microsoft.png';
 import scu from '../assets/icon/scu.png';
