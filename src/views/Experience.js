@@ -2,7 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import tcfc from '../assets/icon/tcfc.png';
-// import cgu from '../assets/icon/cgu.png';
+import cgu from '../assets/icon/cgu.png';
 import fm from '../assets/icon/famille.png';
 import ms from '../assets/icon/microsoft.png';
 import scu from '../assets/icon/scu.png';
@@ -17,7 +17,7 @@ const Experience = () => {
       <h2 className='margin-bottom-50'>Work Experience</h2>
 
       <div className='work-container'>
-        <Row style={{marginTop: 20}}>
+        <Row style={{ marginTop: 20 }}>
           <Col sm={2}>
             <div className='icon-container'>
               <img src={tcfc} alt={tcfc}></img>
@@ -31,20 +31,23 @@ const Experience = () => {
             <div className='normal-font'><i>Taiwan Cybersecurity Foundry Company, Taipei Taiwan</i></div>
             <ul className='normal-font'>
               <li>
-                Develop <a href='https://esm.secbuzzer.co/' alt='esm-description' target='_blank' rel='noreferrer'>Citadel </a>
-                to provide real-time monitoring and threat detection for client’s network security needs using React.js, Redux,
-                Node.js, Sequelize, MySQL, serving 20+ global clients. Optimized network performance from 10 to 5 mins by minimize
-                HTTP requests and remove unnecessary data dependencies
+                Built data visualization charts library for product usage to enhance UX, utilizing D3.js, TypeScript, and Storybook
               </li>
               <li>
-                Developed Internal Data Management and Analysis System for Taiwan Power Company to manage electric towers’
-                state and provide monthly analysis report using Angular.js, Spring boot, SQL server
+                Reconstructed relational database’s structure to improve server-side logic and for better management. Resulted in
+                a 200% increase in customer satisfaction
+
+              </li>
+              <li>
+                Developed Phalanx to automate vulnerability scan and penetration test tools that help organizations keep abreast
+                of potential vulnerabilities using React.js, Redux, Node.js, and MySQL, serving 20+ global clients
+
               </li>
             </ul>
           </Col>
         </Row>
 
-        {/* <Row style={{marginTop: 20}}>
+        <Row style={{ marginTop: 20 }}>
           <Col sm={2}>
             <div className='icon-container'>
               <img src={cgu} alt="cgu"></img>
@@ -63,39 +66,15 @@ const Experience = () => {
             </div>
             <ul className='normal-font'>
               <li>
-                Established database containing 3,000+ data of pupils with appropriate labeling for Convolutional
-                Neural Network (CNN)-based deep learning model training, and evaluated the model&#39;s performance on the
-                detection of pupil size which reached an accuracy of 89.43%
-              </li>
-            </ul>
-          </Col>
-        </Row> */}
-
-        <Row style={{marginTop: 20}}>
-          <Col sm={2}>
-            <div className='icon-container'>
-              <img src={fm} alt="famille"></img>
-            </div>
-          </Col>
-          <Col sm={10}>
-            <Row>
-              <Col sm={8}><div className='small-title'>Co-founder, Front-end developer</div></Col>
-              <Col sm={4}><div className='time'>Sep 2018 – Jun 2022</div></Col>
-            </Row>
-            <div className='normal-font'><i>Famille (Online sneaker retail company), Taipei Taiwan</i></div>
-            <ul className='normal-font'>
-              <li>
-                Launched online sneaker reselling platform serving customers across Taiwan, using with EJS,
-                Node.js, MySQL, integrated online payment service - TapPay, and deployed on Microsoft Azure
+                Gathered and annotated the data with relevant labels, and curated the data to meet the requirements of the machine learning algorithms employed
               </li>
               <li>
-                <a href='/Project/Famille'>Platform overview</a>
-              </li>
+                Trained deep convolutional neural network (CNN) using transfer learning approach, which is designed to detect juvenile myoclonic epilepsy (JME) using diffusion magnetic resonance imaging (MRI) data              </li>
             </ul>
           </Col>
         </Row>
 
-        <Row style={{marginTop: 20}}>
+        <Row style={{ marginTop: 20 }}>
           <Col sm={2}>
             <div className='icon-container'>
               <img src={ms} alt="microsoft"></img>
@@ -113,18 +92,18 @@ const Experience = () => {
             <div className='normal-font'><i>Microsoft Corporation, Taipei Taiwan</i></div>
             <ul className='normal-font'>
               <li>
-              Trained more than 500 teachers in designing STEM lessons with Microsoft 365 products,
-              Minecraft Education and HoloLens 2
+                Engineered cloud solutions tailored for government bodies, focusing on image classification using Microsoft
+                Azure, deployed on their applications to enhance the safety of their Electronic Tower Inspection process
               </li>
               <li>
-              Resolved government body’s technical issues and trained more than 200 people on implementing
-              Microsoft Azure on their service
+                Trained 500+ teachers across the country in designing STEM lessons for K-12 students with Microsoft 365
+                products, Minecraft Education, and HoloLens 2
               </li>
             </ul>
           </Col>
         </Row>
 
-        <Row style={{marginTop: 20}}>
+        <Row style={{ marginTop: 20 }}>
           <Col sm={2}>
             <div className='icon-container'>
               <img src={scu} alt="microsoft"></img>
@@ -138,14 +117,14 @@ const Experience = () => {
             <div className='normal-font'><i>Information Security (2020 SPRING), Soochow University, Taipei Taiwan</i></div>
             <ul className='normal-font'>
               <li>
-              Responsible for English Academic Journal Paper Reading at practice lesson for
-              20 master’s students
+                Responsible for English Academic Journal Paper Reading at practice lesson for
+                20 master’s students
               </li>
             </ul>
           </Col>
         </Row>
 
-        <Row style={{marginTop: 20}}>
+        <Row style={{ marginTop: 20 }}>
           <Col sm={2}>
             <div className='icon-container'>
               <img src={sb} alt="microsoft"></img>
@@ -163,13 +142,42 @@ const Experience = () => {
             <div className='normal-font'><i>Sandbox Academy, Taipei Taiwan</i></div>
             <ul className='normal-font'>
               <li>
-              Taught Python logic with programmable robotics to 15 K-12 students.
+                Taught Python logic with programmable robotics to 15 K-12 students.
+              </li>
+              <br /><br />
+            </ul>
+          </Col>
+        </Row>
+
+        <Row style={{ marginTop: 20 }}>
+          <Col sm={2}>
+            <div className='icon-container'>
+              <img src={fm} alt="famille"></img>
+            </div>
+          </Col>
+          <Col sm={10}>
+            <Row>
+              <Col sm={8}><div className='small-title'>Co-founder, Front-end developer</div></Col>
+              <Col sm={4}><div className='time'>Sep 2018 – Jun 2022</div></Col>
+            </Row>
+            <div className='normal-font'><i>Famille (Online sneaker retail company), Taipei Taiwan</i></div>
+            <ul className='normal-font'>
+              <li>
+                Integrated cash flow system with TapPay (Payment Gateway), eliminating the need for redirects to external sites.
+                This resulted in a 20% increase in total sales by providing a secure payment method directly within the platform
+              </li>
+              <li>
+                Constructed a sneaker reselling platform to handle customer’s orders, using EJS, Node.js, MySQL and deployed
+                on Microsoft Azure, serving customers across Taiwan
+              </li>
+              <li>
+                <a href='/Project/Famille'>Platform overview</a>
               </li>
             </ul>
           </Col>
         </Row>
 
-        <Footer/>
+        <Footer />
       </div>
     </>
   );
